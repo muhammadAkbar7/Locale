@@ -213,7 +213,7 @@
         <!--Rewards-->
         <scene sceneID="mTz-qv-u5y">
             <objects>
-                <viewController id="9Fm-Nd-Stl" sceneMemberID="viewController">
+                <viewController id="9Fm-Nd-Stl" customClass="RewardViewController" customModule="locale_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tnE-wV-SDS">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -239,19 +239,62 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fortune_cookie" translatesAutoresizingMaskIntoConstraints="NO" id="V5D-7b-Krz">
-                                <rect key="frame" x="76" y="272" width="240" height="379"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fortune_cookie" translatesAutoresizingMaskIntoConstraints="NO" id="V5D-7b-Krz">
+                                <rect key="frame" x="76" y="244" width="240" height="379"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES" allowsDirectInteraction="YES"/>
+                                </accessibility>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reward" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Svy-cl-Ku3">
+                                <rect key="frame" x="44" y="588" width="324" height="205"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="R1r-1w-aYo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Rewards" id="eVf-nh-1dn" colorLabel="IBBuiltInLabel-Green"/>
+                    <connections>
+                        <outlet property="imageView" destination="V5D-7b-Krz" id="XeT-dm-lZ2"/>
+                        <outlet property="textLabel" destination="Svy-cl-Ku3" id="QGW-my-zQT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hZK-os-pYq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3122.9007633587785" y="1342.9577464788733"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="ybR-EA-6xH">
+            <objects>
+                <tableViewController id="xFY-zr-g58" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="iio-tN-Jad">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="rBp-gV-Usc">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rBp-gV-Usc" id="1sn-sW-mh1">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xFY-zr-g58" id="VWS-TL-r63"/>
+                            <outlet property="delegate" destination="xFY-zr-g58" id="44l-O6-rY0"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="BAI-kB-fRB"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vO8-6T-HeI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4756" y="1365"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rV7-ub-XXM">
