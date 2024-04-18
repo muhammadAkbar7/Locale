@@ -1,3 +1,14 @@
+## Video Demo
+
+<div>
+    <a href="https://www.loom.com/share/6689a3d3fbfe4f9ab7c50e9930a5fd9b">
+      <p>My Local App Journey 🌍 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/6689a3d3fbfe4f9ab7c50e9930a5fd9b">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/6689a3d3fbfe4f9ab7c50e9930a5fd9b-with-play.gif">
+    </a>
+  </div>
+
 ## Inspiration
 
 My inspiration for this was my trip to Jakarta last Summer. I attended a lot of festivals with local stores showcasing their wares and products to the public, and I wanted to bring something similar to the US. The target audience is for people to go out to their local stores more.
