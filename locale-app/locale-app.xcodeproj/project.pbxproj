@@ -17,6 +17,8 @@
 		54BF3F322BCFA2F300CC21F2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF3F312BCFA2F300CC21F2 /* MainViewController.swift */; };
 		54BF3F342BCFA34B00CC21F2 /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF3F332BCFA34B00CC21F2 /* RewardViewController.swift */; };
 		54BF3F362BCFA62500CC21F2 /* RewardFinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF3F352BCFA62500CC21F2 /* RewardFinalViewController.swift */; };
+		54BF3F382BD0832000CC21F2 /* HorizontalCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF3F372BD0832000CC21F2 /* HorizontalCollectionViewController.swift */; };
+		54BF3F3A2BD0853B00CC21F2 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF3F392BD0853B00CC21F2 /* CustomCollectionViewCell.swift */; };
 		54E16CD62BCF610300CAFFA0 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E16CD52BCF610300CAFFA0 /* user.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		54BF3F312BCFA2F300CC21F2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		54BF3F332BCFA34B00CC21F2 /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
 		54BF3F352BCFA62500CC21F2 /* RewardFinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardFinalViewController.swift; sourceTree = "<group>"; };
+		54BF3F372BD0832000CC21F2 /* HorizontalCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewController.swift; sourceTree = "<group>"; };
+		54BF3F392BD0853B00CC21F2 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		54E16CD52BCF610300CAFFA0 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +76,8 @@
 				54E16CD52BCF610300CAFFA0 /* user.swift */,
 				54BCA24D2BCF4F13008A49EF /* SignInViewController.swift */,
 				54BCA23F2BCF480A008A49EF /* Main.storyboard */,
+				54BF3F372BD0832000CC21F2 /* HorizontalCollectionViewController.swift */,
+				54BF3F392BD0853B00CC21F2 /* CustomCollectionViewCell.swift */,
 				54BF3F352BCFA62500CC21F2 /* RewardFinalViewController.swift */,
 				54BF3F332BCFA34B00CC21F2 /* RewardViewController.swift */,
 				54BCA2422BCF480D008A49EF /* Assets.xcassets */,
@@ -154,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				54BF3F362BCFA62500CC21F2 /* RewardFinalViewController.swift in Sources */,
+				54BF3F3A2BD0853B00CC21F2 /* CustomCollectionViewCell.swift in Sources */,
 				54BF3F322BCFA2F300CC21F2 /* MainViewController.swift in Sources */,
+				54BF3F382BD0832000CC21F2 /* HorizontalCollectionViewController.swift in Sources */,
 				54BF3F342BCFA34B00CC21F2 /* RewardViewController.swift in Sources */,
 				54E16CD62BCF610300CAFFA0 /* user.swift in Sources */,
 				54BCA24E2BCF4F13008A49EF /* SignInViewController.swift in Sources */,
